@@ -1110,7 +1110,7 @@
         padding-left: 330px;
     }
     .sec-5 .intro {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
     
 }
@@ -1319,7 +1319,7 @@
         padding-bottom: 10px;
     }
     .sec-5 .container {
-        padding: 55px 0;
+        padding: 65px 0;
     }
     .footer .icon-box a {
         /* height: 20px; */
@@ -1327,6 +1327,13 @@
     }
 }
 @media (max-width:420px){
+    .header-area {
+        padding: 0 20px;
+        height: 50px;
+    }
+    #hamburger{
+        height: 22px;
+    }
     .sec-1 .txt-box {
         padding-left: 200px;
     }
@@ -1354,6 +1361,9 @@
     .sec-2 a {
         height: 500px;
     }
+    .sec-4 .con {
+        padding-left: 40px;
+    }
     .sec-3 .bottom-box {
         padding: 110px 0 90px 0;
     }
@@ -1370,6 +1380,12 @@
     }
     .sec-1 .bottom-box{
         padding: 0 40px;
+    }
+    .sec-1 .txt-box .head {
+        font-size: 1.4rem;
+    }
+    .sec-4 .con {
+        font-size: 2rem;
     }
     .sec-4 .con {
         font-size: 2rem;
@@ -1390,6 +1406,12 @@
     .sec-1 .border{
         height: 400px;
     }
+    .sec-1 .txt-box .sub {
+        padding: 30px 0 30px 0;
+    }
+    .sec-1 .bottom {
+        bottom: -28px;
+    }    
 }
 @media (max-width:390px){
     .hamburger-icon-box {
@@ -1439,9 +1461,6 @@
     .sec-1 .bottom {
         font-size: 4rem;
     }
-    .sec-1 .txt-box .sub {
-        padding: 30px 0 30px 0;
-    }
     .sec-1 .txt-box .head {
         font-size: 1.3rem;
     }
@@ -1453,9 +1472,6 @@
     }
     .sec-3 .top {
         font-size: 2.3rem;
-    }
-    .sec-4 .con {
-        font-size: 2rem;
     }
     .sec-5 .btn li {
         width: 56px;
