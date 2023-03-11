@@ -1319,7 +1319,7 @@
         padding-bottom: 10px;
     }
     .sec-5 .container {
-        padding: 45px 0;
+        padding: 55px 0;
     }
     .footer .icon-box a {
         /* height: 20px; */
@@ -1336,7 +1336,43 @@
         padding-left: 384px;
     }
     .sec-1 .bottom-box{
-        padding: 0 100px;
+        padding: 0 40px;
+    }
+    .sec-1 .txt-box {
+        padding-left: 184px;
+    }
+    .sec-1 .top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        font-size: 3rem;
+    }
+    .sec-1 .bottom{
+        right: 0;
+    }
+    .sec-2 a {
+        height: 500px;
+    }
+    .sec-3 .bottom-box {
+        padding: 110px 0 90px 0;
+    }
+    .top-b{
+        width: 22px;
+        height: 22px;
+    }
+    .top-btn {
+        width: 70px;
+        height: 70px;
+    }
+    .sec-5 .tabs img {
+        height: 220px;
+    }
+    .sec-1 .bottom-box{
+        padding: 0 40px;
+    }
+    .sec-4 .con {
+        font-size: 2rem;
     }
     .sec-5 .tabs h2 {
         font-size: 1.2rem;
@@ -1344,20 +1380,15 @@
     .sec-5 .tabs p {
         font-size: 1rem;
     }
+    .footer .icon-box {
+        padding: 42px 0 24px 0;
+        justify-content: center;
+    }
 }
 @media (max-width:400px){
     .sec-1 .slide-box-mask,
     .sec-1 .border{
         height: 400px;
-    }
-    .sec-1 .txt-box {
-        padding-left: 184px;
-    }
-    .sec-1 .bottom{
-        right: 0;
-    }
-    .sec-2 a {
-        height: 500px;
     }
 }
 @media (max-width:390px){
@@ -1379,25 +1410,11 @@
     .sec-1 .title-box {
         padding-top: 72px;
     }
-    .sec-3 .bottom-box {
-        padding: 110px 0 90px 0;
-    }
-    .top-b{
-        width: 22px;
-        height: 22px;
-    }
-    .top-btn {
-        width: 70px;
-        height: 70px;
-    }
     .sec-5 .tabs h2 {
         font-size: 1rem;
     }
     .sec-5 .tabs p {
         font-size: 0.85rem;
-    }
-    .sec-5 .tabs img {
-        height: 220px;
     }
     .tabs #tab1, #tab2, #tab3 {
         padding: 30px 37px;
@@ -1416,18 +1433,8 @@
         height: 360px;
         border-radius: 0 0 210px 0;
     }
-    .sec-1 .top {
-    font-size: 4rem;
-    }
     .sec-1 .bottom-box{
         padding: 0 40px;
-    }
-    .sec-1 .top{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        font-size: 3rem;
     }
     .sec-1 .bottom {
         font-size: 4rem;
