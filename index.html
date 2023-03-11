@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <title>sperry</title>
+</head>
+<body>
+    <div id="wrap">
+        <section class="main">
+            <div class="hamburger-menu-box">
+                <div class="hamburger-icon-box">
+                    <div class="input">
+                        <a href="#none" class="search">
+                            <input type="text" placeholder="SEARCH">
+                        </a>
+                    </div>
+                    <div class="icons">
+                        <a href="#none" class="person">
+                            <img src="./img/person.png" alt="">
+                        </a>
+                        <a href="#none" class="heart">
+                            <img src="./img/heart.png" alt="">
+                        </a>
+                        <a href="#none" class="bag">
+                            <img src="./img/bag.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <ul class="hamburger-sub-menu-box">
+                    <li class="hamburger-menu">
+                        <a href="#none" class="hamburger-sub-menu-main-name">WOMEN</a>
+                        <ul class="hamburger-sub-menu">
+                            <li><a href="#none" class="hamburger-sub-menu-name">SHOES</a></li>
+                            <li><a href="#none" class="hamburger-sub-menu-name">GIFTS</a></li>
+                            <li><a href="#none" class="hamburger-sub-menu-name">COLLECTIONS</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="hamburger-menu">
+                        <a href="#none" class="hamburger-sub-menu-main-name">MEN</a>
+                        <ul class="hamburger-sub-menu">
+                            <li><a href="#none" class="hamburger-sub-menu-name">SHOES</a></li>
+                            <li><a href="#none" class="hamburger-sub-menu-name">GIFTS</a></li>
+                            <li><a href="#none" class="hamburger-sub-menu-name">COLLECTIONS</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="hamburger-menu">
+                        <a href="#none" class="hamburger-sub-menu-main-name">KIDS</a>
+                        <ul class="hamburger-sub-menu">
+                            <li><a href="#none" class="hamburger-sub-menu-name">SHOP BY SIZE</a></li>
+                            <li><a href="#none" class="hamburger-sub-menu-name">SHOP GIRLS</a></li>
+                            <li><a href="#none" class="hamburger-sub-menu-name">SHOP BOYS</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="hamburger-menu">
+                        <a href="#none" class="hamburger-sub-menu-main-name">EXPLORE</a>
+                        <ul class="hamburger-sub-menu">
+                            <li><a href="#none" class="hamburger-sub-menu-name">OUR WORLD</a></li>
+                            <li><a href="#none" class="hamburger-sub-menu-name">COLLABS</a></li>
+                            <li><a href="#none" class="hamburger-sub-menu-name">STYLE</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <header class="header-area">
+                <a href="#none" class="logo">
+                    <img src="./img/logo.svg" alt="">
+                </a>
+                <div class="nav">
+                    <ul class="main-menu">
+                        <li data-tab="menu-tab1">
+                            <a href="#none" class="main-menu-name">WOMEN</a>
+                        </li>
+                        <li data-tab="menu-tab2">
+                            <a href="#none" class="main-menu-name">MEN</a>
+                        </li>
+                        <li data-tab="menu-tab3">
+                            <a href="#none" class="main-menu-name">KIDS</a>
+                        </li>
+                        <li data-tab="menu-tab4">
+                            <a href="#none" class="main-menu-name">EXPLORE</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="icon-box">
+                    <li>
+                        <a href="#none" class="search">
+                            <input type="text" placeholder="SEARCH">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none" class="person">
+                            <img src="./img/person.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none" class="heart">
+                            <img src="./img/heart.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none" class="bag">
+                            <img src="./img/bag.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div id="hamburger">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </div>
+            </header>
+
+            <div class="sub-menu-box">
+                <ul id="menu-tab1" class="sub-menu women active">
+                    <li class="menu-left">
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">SHOES</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boots</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boat Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sneakers</a>
+                            </li>
+                            <li>
+                                <a href="#none">Rain & Duck Boots</a>
+                            </li>
+                            <li>
+                                <a href="#none">Flats & Loafers</a>
+                            </li>
+                            <li>
+                                <a href="#none">Wdeges & Heels</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sport</a>
+                            </li>
+                            <li>
+                                <a href="#none">Slippers</a>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">GIFTS</a>
+                            </li>
+                            <li>
+                                <a href="#none">Gifts for Her</a>
+                            </li>
+                            <li>
+                                <a href="#none">New Arrivals</a>
+                            </li>
+                            <li>
+                                <a href="#none">Cozy Gifts</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boot Shop</a>
+                            </li>
+                            <li>
+                                <a href="#none">Classic Gifts</a>
+                            </li>
+                            <li>
+                                <a href="#none">Best Selling Gifts</a>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">COLLECTIONS</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sperry X Who What Wear</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sperry X Herschel Supply</a>
+                            </li>
+                            <li>
+                                <a href="#none">SeaCycled</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-right">
+                        <a href="none">
+                            <img src="./img/submenu_women.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul id="menu-tab2" class="sub-menu men">
+                    <li class="menu-left">
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">SHOES</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boots</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boat Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sneakers</a>
+                            </li>
+                            <li>
+                                <a href="#none">Rain & Duck Boots</a>
+                            </li>
+                            <li>
+                                <a href="#none">Flats & Loafers</a>
+                            </li>
+                            <li>
+                                <a href="#none">Wdeges & Heels</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sport</a>
+                            </li>
+                            <li>
+                                <a href="#none">Slippers</a>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">GIFTS</a>
+                            </li>
+                            <li>
+                                <a href="#none">Gifts for Her</a>
+                            </li>
+                            <li>
+                                <a href="#none">New Arrivals</a>
+                            </li>
+                            <li>
+                                <a href="#none">Cozy Gifts</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boot Shop</a>
+                            </li>
+                            <li>
+                                <a href="#none">Classic Gifts</a>
+                            </li>
+                            <li>
+                                <a href="#none">Best Selling Gifts</a>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">COLLECTIONS</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sperry X Who What Wear</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sperry X Herschel Supply</a>
+                            </li>
+                            <li>
+                                <a href="#none">SeaCycled</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-right">
+                        <a href="#none">
+                            <img src="./img/submenu_men.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul id="menu-tab3" class="sub-menu kids">
+                    <li class="menu-left">
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">SHOP BY SIZE</a>
+                            </li>
+                            <li>
+                                <a href="#none">Baby</a>
+                            </li>
+                            <li>
+                                <a href="#none">Little Kid</a>
+                            </li>
+                            <li>
+                                <a href="#none">Big Kid</a>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">SHOP GIRLS</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boat Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sneakers</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boots</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sandals</a>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">SHOP BOYS</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boat Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sneakers</a>
+                            </li>
+                            <li>
+                                <a href="#none">Boots</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-right">
+                        <a href="#none">
+                            <img src="./img/submenu_kids.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul id="menu-tab4" class="sub-menu explore">
+                    <li class="menu-left">
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">OUR WORLD</a>
+                            </li>
+                            <li>
+                                <a href="#none">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#none">Water For All</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sustainabillity</a>
+                            </li>
+                            <li>
+                                <a href="#none">Blog</a>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">COLLABS</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sperry X Warm & Wonderful</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sperry X Who What Wear</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sperry X JAWS</a>
+                            </li>
+                            <li>
+                                <a href="#none">Sperry X Herschel</a>
+                            </li>
+                        </ul>
+                        <ul class="content">
+                            <li>
+                                <a href="#none" class="sub-menu-name-bold">STYLE</a>
+                            </li>
+                            <li>
+                                <a href="#none">Resort</a>
+                            </li>
+                            <li>
+                                <a href="#none">Pride</a>
+                            </li>
+                            <li>
+                                <a href="#none">Lacing Guide</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-right">
+                        <a href="#none">
+                            <img src="./img/submenu_ex.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="banner">
+                <div class="swiper Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide-box">
+                            <img src="./img/banner_1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide-box">
+                            <img src="./img/banner-2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide-box">
+                            <img src="./img/banner_3.jpg" alt="">
+                            </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <p class="head">SPERRY & BRIGHT</p>
+                <p class="sub">A little something for everyone on your nice list.</p>
+                <a href="#none" class="btn">SHOP GIFTS FOR ALL</a>
+            </div>
+        </section>
+
+        <section class="sec-1">
+            <div class="container">
+                <div class="left-box">
+                    <div class="title-box">
+                        <p class="top">SPERRY'S</p>
+                        <p class="bottom">SHOSE</p>
+                    </div>
+
+                    <div class="bottom-box">
+                        <div class="mask">
+                            <div class="swiper mySwiper slide-box-mask">
+                                <div class="swiper-wrapper slide-box-wrap">
+                                    <div class="swiper-slide slide-box">
+                                        <img src="./img/sec1_1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide slide-box">
+                                        <img src="./img/sec1_2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide slide-box">
+                                        <img src="./img/sec1_3.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide slide-box">
+                                        <img src="./img/sec1_4.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide slide-box">
+                                        <img src="./img/sec1_5.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border"></div>
+                        </div>
+        
+                        <div class="txt-box">
+                            <p class="head">COZY & CLASSICS</p>
+                            <p class="sub">
+                                Winter wonderland-approved style.<br>
+                                The perfect gift, every time.<br>
+                                I'll give you comfort and comfort.<br>
+                                You won't regret it.
+                            </p>
+                            <a href="#none" class="btn">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-box">
+                    <a href="#none" class="right-img">
+                        <img src="./img/side_1 1.jpg" alt=""> 
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-2">
+            <div class="container">
+                <div class="txt-box">
+                    <p class="top-txt">Where you are</p>
+                    <p class="bottom-txt">is the right way.</p>
+                </div>
+                <div class="full-box">
+                    <div class="left-box">
+                        <a href="#none">
+                            <img src="./img/sec2_1.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="mid-box"></div>
+
+                    <div class="right-box">
+                        <div class="top">
+                            <a href="#none">
+                                <img src="./img/sec2_2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="bottom">
+                            <a href="#none">
+                                <img src="./img/sec2_3.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-3">
+            <div class="container">
+                <div class="title-box">
+                    <p class="top">COLLABS</p>
+                </div>
+                <div class="top-box">
+                    <div class="left-box">
+                        <div class="lb">
+                            <div class="tb" data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                                <img src="./img/l-3.jpg" alt="">
+                            </div>
+                            <div class="bb" data-aos="fade-up"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                                <img src="./img/l-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="rb" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <img src="./img/l-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="right-box">
+                        <div class="all-box">
+                            <div class="head-box">
+                                <p>SPERRY X WHO WHAT WEAR
+                                </p>
+                            </div>
+                            <p class="txt">
+                                The Sperry Duck Float Boot reimagined and<br>
+                                redesingned by the deitors at Who What Wear.<br>
+                                I hope you don't miss these boots,<br>
+                                which are both warm and comfortable.
+                            </p>
+                            <a href="#none" class="btn">SHOP THE COLLAB</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-box">
+                    <div class="left-box2">
+                        <div class="all-box2">
+                            <div class="head-box2">
+                                <p>SPERRY X HERSCHEL SUPPLY
+                                </p>
+                            </div>
+                            <p class="txt">
+                                Adventure is calling. Snag these limited-edition,<br>
+                                travel-inspired styles. Where to next?<br>
+                                Something that can turn<br>
+                                the times around has emerged.
+                            </p>
+                            <a href="#none" class="btn">SHOP THE COLLAB</a>
+                        </div>
+                    </div>
+                    <div class="right-box2">
+                        <div class="lb2" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <img src="./img/r-1.jpg" alt="">
+                        </div>
+                        <div class="rb2">
+                            <div class="tb2" data-aos="fade-left"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                                <img src="./img/r-3.jpg" alt="">
+                            </div>
+                            <div class="bb2" data-aos="fade-up"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                                <img src="./img/r-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-4">
+            <div class="container">
+                <ul class="nav">
+                    <li class="con con-1" data-image="./img/sec4_2-2.jpg">
+                        <a href="#none">Free</a>
+                    </li>
+                    <li class="con con-2" data-image="./img/sec4_3-3.jpg">
+                        <a href="#none">Formal</a>
+                    </li>
+                    <li class="con con-3" data-image="./img/sec4_4-4.jpg">
+                        <a href="#none">Comfortable</a>
+                    </li>
+                    <li class="con con-4" data-image="./img/sec4_6-6.jpg">
+                        <a href="#none">Happy</a>
+                    </li>
+                    <li class="con con-5" data-image="./img/sec4_5-5.jpg">
+                        <a href="#none">Moody</a>
+                    </li>
+                    <li class="con con-6" data-image="./img/sec4_7-7.jpg">
+                        <a href="#none">Fresh</a>
+                    </li>
+                </ul>
+                <div class="con-bg bg-img"></div>
+        </section>
+
+        <section class="sec-5">
+            <div class="container">
+                <div class="title-box">
+                    <p class="intro">INTRODUCTION</p>
+                </div>
+                <div class="tab-inner">
+                    <ul class="btn">
+                        <li data-alt="tab1" class="active">Director</li>
+                        <li data-alt="tab2">Retailer</li>
+                        <li data-alt="tab3">Creator</li>
+                    </ul>
+
+                    <div class="tabs">
+                        <div id="tab1" class="active">
+                            <a href="#none" class="img">
+                                <img src="./img/4-1.jpg" alt="">
+                            </a>
+                           <a href="#none" class="txt-box">
+                                <h2>Faith Briggs</h2>
+                                <p>She works with brands, non‑profit
+                                    organizations and institutions to create
+                                    media representative of the world we
+                                    live in and the better one we are
+                                    working together to create.</p>
+                            </a>
+                            
+                        </div>
+                        <div id="tab2">
+                            <a href="#none" class="img">
+                                <img src="./img/4-2.jpg" alt="">
+                            </a>
+                            <a href="#none" class="txt-box">
+                                <h2>Jahmicah Dawes</h2>
+                                <p>Founder of Slim Pickins Outfitters, the
+                                    nation’s first black‑owned outdoor
+                                    retailer.</p>
+                            </a>
+                        </div>
+                        <div id="tab3">
+                           <a href="#none" class="img">
+                            <img src="./img/4-3.jpg" alt="">
+                           </a>
+                           <a href="#none" class="txt-box">
+                                <h2>Natasha Smith</h2>
+                                <p>Community leader and content creator
+                                    who played a significant role in teaching
+                                    the Founders of Ebony Beach Club how
+                                    to surf.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="footer-menu-box">
+                    <ul class="footer-menu">
+                        <li class="footer-menu-name-bold">
+                            <a href="#none">MY ACCOUNT</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Order Status</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Shopping Cart</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Sign In</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Register</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Shopping Cart</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-menu">
+                        <li class="footer-menu-name-bold">
+                            <a href="#none">CUSTOMER SERVICE</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">1-800-247-6575</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">FAQ</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Shipping Policy</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Returns & Exchanges</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-menu none">
+                        <li class="footer-menu-name-bold">
+                            <a href="#none">RESOURCES</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Find a Store</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Size Chart</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Gift Cards</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Promotions</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Affiliate Program</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Careers</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-menu none">
+                        <li class="footer-menu-name-bold">
+                            <a href="#none">POPULAR LINKS</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">New Arrivals</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Best Sellers</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Duck Boots</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Boat Shoes</a>
+                        </li>
+                        <li class="footer-menu-name">
+                            <a href="#none">Authentic Originals</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="all-box">
+                    <div class="icon-box">
+                        <a href="#none" class="youtube">
+                            <img src="./img/youtube.svg" alt="">
+                        </a>
+                        <a href="#none" class="twitter">
+                            <img src="./img/twitter.svg" alt="">
+                        </a>
+                        <a href="#none" class="facebook">
+                            <img src="./img/facebook.svg" alt="">
+                        </a>
+                        <a href="#none" class="instagram">
+                            <img src="./img/instargram.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>©2023 Sperry.com. All rights reserved</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="top-btn">
+            <div class="img">
+                <img src="./img/top-f.svg" alt="">
+            </div>
+
+            <div class="top-b">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
